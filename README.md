@@ -95,42 +95,40 @@ Compared with LQR, the iterative controller demonstrates:
 
 ```
 .
-├── LQR/
-│   ├── Simulation/
+├── LQR_Simulation/
 |        ├── Simulation_LQR_trajectory_sine.m
 |        ├── Simulation_LQR_trajectory_square.m
-│   ├── Real_Time_Deployment/
+├── LQR_Real_Time_Deployment/
 |        ├── Real_time_sine.m
 |        ├── Real_time_square.m
 │
-├── iLQR/
-│   ├── Simulation/
-|        ├── Simulation_iLQR_sine.m
-|        ├── Simulation_iLQR_square.m
-│   ├── Real_Time_Deployment/
+├── iLQR_Simulation/
+|        ├── Simulation_iLQR_Sine.m
+|        ├── Simulation_iLQR_Square.m
+├── iLQR_Real_Time_Deployment/
 |        ├── Real_Time_iterative_LQR_sine.m
 |        ├── Real_Time_iterative_LQR_square.m
 │
 ├── Results/
 │   ├── LQR_Results/
 │     ├── Simulation/
-|        ├── sim_square_LQR.jpg
-|        ├── sim_sine_LQR.jpg
+|        ├── Sim_Square_LQR.jpg
+|        ├── Sim_Sine_LQR.jpg
 │     ├── Real_Time_Results/
-|        ├── Real_time_sine.jpg
-|        ├── Real_time_square.jpg
+|        ├── Real_Time_Sine.jpg
+|        ├── Real_Time_Square.jpg
+|        ├── Real_Time_LQR_Sine_Wave.mp4
+|        ├── Real_Time_LQR_Square_Wave.mp4
 │   ├── iLQR_Results/
 │     ├── Simulation/
-|        ├── Simulation results_iLQR.jpg
-|        ├── Simulation results_iter.jpg
-|        ├── Square_simulation_iLQR.jpg
-|        ├── Square_simulation_iter.jpg
+|        ├── Sim_Sine_iLQR.jpg
+|        ├── Sim_Sine_iter.jpg
+|        ├── Sim_Square_iLQR.jpg
+|        ├── Sim_Square_iter.jpg
 │     ├── Real_Time_Results/
-|        ├── Real_time_iLQR.jpg
-|        ├── Real_time iter.jpg
-|        ├── Square_Real_time_iLQR.jpg
-|        ├── real_time_square.jpg
-├── Videos/
-│   ├── LQR_Results/
+|        ├── Real_Time_Sine.jpg
+|        ├── Real_Time_Square.jpg
+|        ├── Real_Time_iLQR_Sine_Wave.mp4
+|        ├── Real_Time_iLQR_Square_Wave.mp4
 └── README.md
 ```
