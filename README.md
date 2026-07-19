@@ -18,7 +18,7 @@ The controllers are evaluated on both **sine** and **square-wave reference traje
 - **Iterative Linear Quadratic Regulator (iLQR)** 
 - Pole Placement
 - Pole Placement + ILC
-My primary contribution to this project was the design and implementation of the **LQR** and **iLQR** controllers.
+> My primary contribution to this project was the design and implementation of the **LQR** and **iLQR** controllers.
 ---
 
 # My Contribution
